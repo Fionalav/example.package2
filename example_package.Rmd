@@ -1,0 +1,16 @@
+---
+title: "example_package"
+author: "Yulan Zhang"
+date: "11/27/2017"
+output: html_document
+---
+```{r}
+library(broom)
+library(tidyverse)
+library(example.package)
+
+rm(list = ls())
+
+simulate_nrep(n_rep = 10, n_samp = 30, beta0 = 2, beta1 = 3) 
+```
+
